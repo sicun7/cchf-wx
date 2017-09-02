@@ -1,0 +1,60 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/lp/lp",
+    "pages/zx/zx",
+    "pages/fx/fx",
+    "pages/user/user"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"images/home.png",
+        "selectedIconPath":"images/home_s.png"
+      },
+      {
+        "pagePath": "pages/lp/lp",
+        "text": "楼盘",
+        "iconPath": "images/lp.png",
+        "selectedIconPath": "images/lp_s.png"
+      },
+      {
+        "pagePath": "pages/fx/fx",
+        "text": "发现",
+        "iconPath": "images/fx.png",
+        "selectedIconPath": "images/fx_s.png"
+      },
+      {
+        "pagePath": "pages/zx/zx",
+        "text": "装修",
+        "iconPath": "images/zx.png",
+        "selectedIconPath": "images/zx_s.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user_s.png"
+      }
+    ],
+    "position":"bottom",
+    "color":"#666",
+    "selectedColor":"#b4282d",        
+    "backgroundColor":"#fafafa",
+    "borderStyle":"black"
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "backgroundColor": "#eeeeee",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "车城好房",
+    "navigationBarTextStyle":"black"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

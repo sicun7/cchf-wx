@@ -1,0 +1,8 @@
+
+<text>
+
+个人中心
+
+</text>
+
+<view bindtap="testClick">点击</view>

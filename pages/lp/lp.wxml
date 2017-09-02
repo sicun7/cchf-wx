@@ -1,0 +1,11 @@
+<text>
+
+楼盘
+
+</text>
+
+<view bindtap="testClick">点击</view>
+
+<view wx:for="{{userList}}" wx:for-index="idx" wx:for-item="item">
+  {{idx}}: {{item.user_name}} {{item.password}}
+</view>
